@@ -14,7 +14,7 @@ const SignUp = () => {
 
   const handleSubmit = async () => {
     if (!form.name || !form.email || !form.password) {
-      Alert.alert(
+      return Alert.alert(
         "Error",
         "Please enter valid name, email address and password"
       );
