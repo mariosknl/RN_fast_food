@@ -13,7 +13,12 @@ export const appwriteConfig = {
   platform: "com.mariosk.fast_food",
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
   databaseId: "686803d80032f03f0382",
+  bucketId: "6868b53400071f42354e",
   userCollectionId: "686803fc00289942b57d",
+  categoriesCollectionId: "6868b262002e053df5d3",
+  menuCollectionId: "6868b2df0029c1906fad",
+  customizationsCollectionId: "6868b3aa0033301b0de4",
+  menuCustomizationCollectionId: "6868b46c0005ef9d0467",
 };
 
 export const client = new Client();
